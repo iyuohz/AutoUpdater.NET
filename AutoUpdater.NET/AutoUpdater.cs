@@ -263,6 +263,10 @@ namespace AutoUpdaterDotNET
             Running = false;
         }
 
+        /// <summary>
+        /// 
+        /// 
+        /// </summary>
         public static void ShowUpdateForm()
         {
             var updateForm = new UpdateForm();
@@ -271,7 +275,12 @@ namespace AutoUpdaterDotNET
                 Exit();
             }
         }
-
+        /// <summary>
+        /// 
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private static void BackgroundWorkerDoWork(object sender, DoWorkEventArgs e)
         {
             e.Cancel = true;

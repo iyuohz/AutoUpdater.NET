@@ -64,9 +64,9 @@
             this.labelInformation.Location = new System.Drawing.Point(93, 14);
             this.labelInformation.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.labelInformation.Name = "labelInformation";
-            this.labelInformation.Size = new System.Drawing.Size(68, 15);
+            this.labelInformation.Size = new System.Drawing.Size(42, 15);
             this.labelInformation.TabIndex = 3;
-            this.labelInformation.Text = "Extracting...";
+            this.labelInformation.Text = "解压中...";
             // 
             // FormMain
             // 
@@ -85,7 +85,7 @@
             this.Name = "FormMain";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Installing update...";
+            this.Text = "安装更新...";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Shown += new System.EventHandler(this.FormMain_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIcon)).EndInit();

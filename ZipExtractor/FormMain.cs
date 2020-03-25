@@ -29,7 +29,7 @@ namespace ZipExtractor
                     {
                         if (process.MainModule.FileName.Equals(args[2]))
                         {
-                            labelInformation.Text = @"Waiting for application to Exit...";
+                            labelInformation.Text = @"等待程序退出...";
                             process.WaitForExit();
                         }
                     }
@@ -82,7 +82,7 @@ namespace ZipExtractor
                 {
                     if (!eventArgs.Cancelled)
                     {
-                        labelInformation.Text = @"Finished";
+                        labelInformation.Text = @"完成";
                         try
                         {
                             ProcessStartInfo processStartInfo = new ProcessStartInfo(args[2]);
